@@ -33,7 +33,7 @@ const OurCollection = () => {
         {/* Card Overlay */}
         <div className="h-full bg-black">
           <div
-            className=" absolute top-[6rem] left-[5%] right-[5%] md:left-[10rem] md:right-[10rem] lg:top-[10rem] lg:left-[20rem] lg:right-[20rem] z-10
+            className=" absolute lg:w-[80vw] top-[6rem] left-[5%] right-[5%] md:left-[10rem] md:right-[10rem] lg:top-[10rem] lg:left-[10rem] lg:right-[10rem] z-10
           bg-[#1C1D1F] rounded-3xl flex flex-col items-center text-white h-auto py-10 px-4 md:px-0"
           >
             {/* Hand-drawn vector */}
