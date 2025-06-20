@@ -1,10 +1,9 @@
-import bgImgLg from "./images/bg-cafe-lg.jpg"
-import bgImgsm from "./images/bg-cafe-sm.jpg"
-import bgImg from "./images/bg-cafe.jpg"
+import bgImgLg from "./images/bg-cafe-lg.webp"
+import bgImgsm from "./images/bg-cafe-sm.webp"
+import bgImg from "./images/bg-cafe.webp"
 
 
-import capuccino from "./images/cappucino.jpg"
 
 import handDrawnImg from "./icons/vector.svg"
 
-export {bgImgLg, handDrawnImg, capuccino, bgImgsm, bgImg}
+export {bgImgLg, handDrawnImg, bgImgsm, bgImg}

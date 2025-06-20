@@ -62,7 +62,7 @@ const Coffee = () => {
               {coffee.price}
             </p>
             {!coffee.available && (
-              <div className="text-red-500 text-xs mt-1">Sold Out</div>
+              <div className="text-[#FF3D1A] text-xs mt-1">Sold Out</div>
             )}
           </div>
         </div>
