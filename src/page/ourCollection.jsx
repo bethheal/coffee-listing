@@ -1,11 +1,11 @@
 import React from "react";
 import { bgImg, bgImgLg, bgImgsm, handDrawnImg } from "../assets";
 import Coffee from "./coffee";
-import "../index.css"; 
+import "../index.css";
 
 const OurCollection = () => {
   return (
-    <div className="bg-red-50flex justify-center items-center h-screen"> 
+    <div className="bg-red-50flex justify-center items-center h-screen">
       <div className="relative w-full   ">
         <div className="relative w-full">
           {/* Mobile Image */}
@@ -33,7 +33,7 @@ const OurCollection = () => {
         {/* Card Overlay */}
         <div className="h-full bg-black">
           <div
-            className=" absolute top-[3rem] left-[5%] right-[5%] md:left-[10rem] md:right-[10rem] 
+            className=" absolute top-[6rem] left-[5%] right-[5%] md:left-[10rem] md:right-[10rem] 
           bg-[#1C1D1F] rounded-3xl flex flex-col items-center text-white h-auto py-10 px-4 md:px-0"
           >
             {/* Hand-drawn vector */}
@@ -54,10 +54,13 @@ const OurCollection = () => {
                 batches and shipped fresh weekly.
               </p>
               <div className="flex gap-4 justify-center mt-4">
-  <button className="bg-white text-black px-4 py-2 rounded-lg">All Products</button>
-  <button className="bg-gray-700 text-white px-4 py-2 rounded-lg">Available Now</button>
-</div>
-
+                <button className="bg-white text-black px-4 py-2 rounded-lg">
+                  All Products
+                </button>
+                <button className="bg-gray-700 text-white px-4 py-2 rounded-lg">
+                  Available Now
+                </button>
+              </div>
             </div>
 
             {/* Coffee Cards */}
